@@ -24,18 +24,21 @@ OA	MB	JD	FG	AK
 	{
 		int n=5;
 		int count1=(n*(n+1)/2);
-		int count2=(n*(n+1)/2);
+		//int count2=(n*(n+1)/2);
 		
-		for(int i=1;i<=n;i++)
+		for(int i=i;i>=1;i--)
 		{
+			int c1=count1;
 			for(int j=i;j>=1;j--)
 			{	
-				for(int j=n;j>i;j--)
+				for(int j=n;j>=i;j--)
 					System.out.print("\t");
-				for()
-				System.out.print();
-				System.out.print();
+				for(int j=n;j>=i;j--)
+				System.out.print(j);
+				
 			}
+			System.out.println();
+			count1--;
 		}
 
 	}
